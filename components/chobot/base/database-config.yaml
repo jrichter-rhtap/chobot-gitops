@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: chobot-database-config
+data:
+  VECTORDB_HOST: "chobot-database"
+  VECTORDB_PORT: ""
